@@ -1,0 +1,29 @@
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.networthWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.networthWrapper .itemCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.networthWrapper .itemCont .imgCont {
+  width: 230px;
+}
+
+.networthWrapper .itemCont .imgCont img {
+  width: 100%;
+  border-radius: 12px;
+}
+.networthWrapper .itemCont .title {
+  font-weight: bold;
+}

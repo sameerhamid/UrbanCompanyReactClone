@@ -1,0 +1,20 @@
+.carasoulWrapper {
+  width: 100%;
+  margin: 4rem 0;
+}
+.alice-carousel .alice-carousel__wrapper {
+  overflow: hidden;
+}
+.alice-carousel .alice-carousel__wrapper .alice-carousel__stage {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.carasoulWrapper .slideContainer {
+  width: 430px;
+}
+.carasoulWrapper .slideContainer img {
+  width: 100%;
+  border-radius: 10px;
+}

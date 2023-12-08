@@ -1,0 +1,41 @@
+.bookedServicesWrapper {
+  margin-top: 3rem;
+}
+.bookedServiesContainer {
+  margin-top: 2rem;
+  width: 100%;
+}
+.alice-carousel .alice-carousel__wrapper {
+  overflow: hidden;
+}
+.alice-carousel .alice-carousel__wrapper .alice-carousel__stage {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.bookedServiesContainer .cardContainer {
+  width: 200px;
+}
+.bookedServiesContainer .cardContainer img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bookedServiesContainer .cardContainer .cardDetails {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 6px;
+}
+
+.bookedServiesContainer .cardContainer .cardDetails .title {
+  font-weight: bold;
+}
+
+.bookedServiesContainer .cardContainer .cardDetails .ratting {
+  font-size: 12px;
+}
+.bookedServiesContainer .cardContainer .cardDetails .price {
+  font-size: 14px;
+}

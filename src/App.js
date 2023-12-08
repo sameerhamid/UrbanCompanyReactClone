@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// import { Route, Routes } from 'react-router-dom';
+import './app.css';
+// import Home from './components/navbar/home/Home';
+// import RegisterAsProfessional from './components/register/RegisterAsProfessional';
+// import Card from './components/cards/Card';
+import Navbar from './components/navbar/Navbar';
+import HereoSection from './components/heroSection/HereoSection';
+import CardsCarsual from './components/carasual/CardsCarsual';
+import Networthy from './components/newAndNetWorthy/Networthy';
+import BookedServices from './components/mostBookedServices/BookedServices';
+import Saloon from './components/saloonForWomen/Saloon';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appContainer">
+      <div className='innerCont'>
+        <Navbar />
+        <HereoSection />
+
+        <CardsCarsual />
+        <Networthy />
+        <BookedServices />
+
+        <Saloon />
+        {/* {<Card />} */}
+      </div>
     </div>
   );
 }

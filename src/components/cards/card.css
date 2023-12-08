@@ -1,0 +1,29 @@
+.cardsContianer {
+  width: 86%;
+  margin: 6rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 300px;
+  gap: 20px;
+  place-items: center;
+}
+
+/* .cardImg {
+  padding: 0 10px;
+} */
+
+.cardImg {
+  width: 100%;
+}
+.cardImg img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.cardImg img:hover {
+  transform: scale(1.1);
+  transition-duration: 1.2s;
+}

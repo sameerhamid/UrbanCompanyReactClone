@@ -1,0 +1,26 @@
+.navbarContainer {
+  background-color: #f8f4f4;
+}
+.navbarContainer .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  color: black;
+}
+.navbarContainer .navbar .navLogo img {
+  width: 130px;
+}
+.navbarContainer .navbar .navLinks {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarContainer .navbar .navLinks select {
+  padding: 10px 40px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+}

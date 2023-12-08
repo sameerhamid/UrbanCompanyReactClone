@@ -1,0 +1,109 @@
+.homeContainer {
+  width: 60%;
+  margin: 0 auto;
+  /* border-bottom: 1px solid #225e; */
+}
+.homeContainer .homeContent {
+  text-align: center;
+  margin-top: 18vh;
+  line-height: 2;
+  color: #fff;
+  /* margin-bottom: 3rem; */
+}
+
+.homeContainer .homeContent .home {
+  font-size: 12px;
+}
+.homeContainer .homeContent .heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.homeContainer .homeContent .locationSerach {
+  margin-top: 2rem;
+  display: flex;
+  gap: 20px;
+}
+.homeContainer .homeContent .locationSerach .location {
+  width: 26%;
+}
+.homeContainer .homeContent .locationSerach .location select {
+  width: 100%;
+  height: 56px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 0px 20px;
+  border-radius: 6px;
+}
+.homeContainer .homeContent .locationSerach .search {
+  width: 67%;
+}
+.homeContainer .homeContent .locationSerach .search input {
+  height: 56px;
+  /* width: 550px; */
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0px 20px;
+  border-radius: 6px;
+}
+.homeContainer .homeContent .locationSerach .search .searchEx {
+  display: flex;
+  font-size: 14px;
+  margin-top: 6px;
+  text-decoration: underline;
+}
+
+.homeContainer .homeCards {
+  display: flex;
+  background-color: #fff;
+  margin-top: 5rem;
+  /* width: 100%; */
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+.homeContainer .homeCards .card {
+  width: 156px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.homeContainer .homeCards .card:hover {
+  background-color: #f3ededd7;
+}
+
+.homeContainer .homeCards .card .cardImg img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.homeContainer .homeCards .card .cardTitle {
+  font-size: small;
+}
+
+/* search bar */
+
+.searchBar {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.homeContainer .heading2 {
+  text-align: center;
+  margin: 3rem 0 !important;
+  font-size: 1.8rem;
+  font-weight: bold;
+}

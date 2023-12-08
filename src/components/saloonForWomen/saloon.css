@@ -1,0 +1,19 @@
+.saloonWrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.saloonWrapper .itemContainer {
+}
+.saloonWrapper .itemContainer .itemImg {
+  position: relative;
+}
+.saloonWrapper .itemContainer .itemImg img {
+  position: relative;
+}
+
+.saloonWrapper .itemContainer .itemImg .title {
+  position: absolute;
+  top: -5;
+}

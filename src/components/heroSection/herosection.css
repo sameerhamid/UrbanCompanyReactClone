@@ -1,0 +1,97 @@
+.hereWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.hereWrapper .left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hereWrapper .left .heading {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.hereWrapper .left .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hereWrapper .left .card .cardHeading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 12px 0;
+}
+.hereWrapper .left .card .cardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  place-items: center;
+  align-items: center;
+}
+
+.hereWrapper .left .card .cardWrapper .cardItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  width: 80%;
+  gap: 10px;
+}
+
+.hereWrapper .left .card .cardWrapper .cardItem .cardImg {
+  background-color: #f0e9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  border-radius: 10px;
+}
+
+.hereWrapper .left .card .cardWrapper .cardItem .cardImg img {
+  width: 100px;
+  height: 50px;
+  aspect-ratio: 4/3;
+  object-fit: contain;
+}
+
+.hereWrapper .left .card .cardWrapper .cardItem .cardTitle {
+  font-size: 0.8rem;
+}
+
+/* right card styling starts */
+
+.hereWrapper .right {
+  margin-top: 1rem;
+}
+.hereWrapper .right .rightCardImg img {
+  width: 630px;
+  object-fit: cover;
+}
+
+.heroFooter {
+  margin-top: 1rem;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.heroFooter .footerCard {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.heroFooter .footerCard .img img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}

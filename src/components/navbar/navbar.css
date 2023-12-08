@@ -1,0 +1,25 @@
+.navbarContainer1 {
+  width: 100%;
+  background-color: #0a0a0a;
+}
+.navbarContainer1 .navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+
+  height: 60px;
+}
+.navbarContainer1 .navbar1 .navLogo img {
+  width: 130px;
+}
+.navbarContainer1 .navbar1 .navLinks {
+  display: flex;
+  gap: 40px;
+  font-weight: bold;
+}
+.navbarContainer1 .navbar1 .navLinks a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
